@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial,
+sans-serif
+  backround: #080808;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+   width: 95%;
+   max-width: 700px;
+   height: 90vh;
+   background: #111;
+   border: 1px solid #333;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   box-shadow: 0 0 30px rgba(255,
+  255, 255, 0.08);
+}
+
+header {
+  padding: 25px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+header h1 { 
+  font-size: 32px;
+}
+
+#chat {
+  flex: 1;
+  padding: 25px;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 14px 18px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  max-width: 80%;
+}
+
+.bot {
+  background: #222;
+  border: 1px solid #333;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  border-top: 1px solid #333;
+}
+
+input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 12px
+  border: 1px solid #444;
+  background: #1a1a1a;
+  color: white;
+  outline: none;
+}
+
+button {
+  padding: 15px 22px;
+  border: none;
+  border-radius: 12px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ddd;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
